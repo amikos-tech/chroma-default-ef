@@ -1,0 +1,15 @@
+run with `cargo bench`
+
+decode_n_times          time:   [3.9349 µs 3.9588 µs 3.9846 µs]
+                        change: [-1.6315% -1.2605% -0.8858%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 10 outliers among 100 measurements (10.00%)
+  6 (6.00%) high mild
+  4 (4.00%) high severe
+
+decode_n_tokens         time:   [628.40 ns 630.04 ns 632.03 ns]
+                        change: [-3.6926% -2.1495% -0.5598%] (p = 0.01 < 0.05)
+                        Change within noise threshold.
+Found 4 outliers among 100 measurements (4.00%)
+  2 (2.00%) high mild
+  2 (2.00%) high severe
